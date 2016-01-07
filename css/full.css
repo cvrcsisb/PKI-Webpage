@@ -1,0 +1,75 @@
+@font-face {
+     font-family: CGOmega;
+     src: url('cgo.ttf');
+ }
+ @font-face {
+    font-family: Ubuntu;
+    src: url('Ubuntu-R.ttf');
+}
+@font-face {
+   font-family: jso;
+   src: url('JuliusSansOne.ttf');
+}
+
+body {
+    background: transparent;
+    color: #ffffff;
+    /* margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.cvr-title {
+  /* font-family:CGOmega; */
+  font-family: jso;
+}
+
+.csi-title {
+  font-family: Ubuntu;
+}
+
+img {
+  max-width:100px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  align:center;
+  text-align: center;
+}
+
+.carousel {
+  padding-bottom : 60px;
+}
+
+ul, ol, p {
+  width:65%;
+  margin:0 auto;
+}
+
+#modal-518004 {
+  /*
+  position: absolute;
+  margin: 0 auto;
+  */
+  width:100%;
+}
+
+.well, .modal, .modal-body, .modal-footer, .modal-title {
+  color: #000;
+}
+
+.btn-primary a{
+  color:#fff;
+}
+
+#mailus {
+  color : white;
+}
